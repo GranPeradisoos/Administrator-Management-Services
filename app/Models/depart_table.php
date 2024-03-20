@@ -11,4 +11,5 @@ class depart_table extends Model
     public $primaryKey = 'id';
     public $incrementing = 'true';
     public $timestamps = 'false';
+    protected $fillable = ['name'];
 }

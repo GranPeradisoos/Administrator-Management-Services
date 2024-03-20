@@ -4,6 +4,14 @@
  <script src="storage/backend/assets/js/plugins/perfect-scrollbar.min.js"></script>
  <script src="storage/backend/assets/js/plugins/smooth-scrollbar.min.js"></script>
  <script src="storage/backend/assets/js/plugins/chartjs.min.js"></script>
+ <script src="storage/backend/plugins/common/common.min.js"></script>
+ <script src="storage/backend/js/custom.min.js"></script>
+ <script src="storage/backend/js/settings.js"></script>
+ <script src="storage/backend/js/gleek.js"></script>
+ <script src="storage/backend/js/styleSwitcher.js"></script>
+
+ <script src="storage/backend/plugins/validation/jquery.validate.min.js"></script>
+ <script src="storage/backend/plugins/validation/jquery.validate-init.js"></script>
  <script>
      var ctx = document.getElementById("chart-bars").getContext("2d");
 
@@ -184,7 +192,7 @@
      }
  </script>
  <!-- Github buttons -->
- <script async defer src="https://buttons.github.io/buttons.js"></script>
+
  <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
  <script src="storage/backend/assets/js/soft-ui-dashboard.min.js?v=1.0.3"></script>
  </body>
